@@ -35,7 +35,12 @@ lockPref("extensions.recommendations.themeRecommendationUrl", "") ;
 
 // New sneaky Pocket spam
 lockPref("services.sync.prefs.sync.browser.newtabpage.activity-stream.section.highlights.includePocket", false) ;
+lockPref("services.sync.prefs.sync.browser.newtabpage.activity-stream.feeds.topsites", false) ;
+lockPref("services.sync.prefs.sync.browser.newtabpage.activity-stream.topSitesRows", false) ;
 lockPref("browser.newtabpage.activity-stream.pocketCta", "") ;
+lockPref("browser.newtabpage.activity-stream.feeds.topsites", false) ;
+lockPref("browser.newtabpage.activity-stream.feeds.default.sites", "") ;
+lockPref("browser.newtabpage.activity-stream.feeds.improvesearch.topSiteSearchShortcuts", false) ;
 
 // New sneaky telemtry methods
 lockPref("browser.newtabpage.activity-stream.telemetry.structuredIngestion", false) ;
@@ -54,9 +59,10 @@ lockPref("toolkit.telemetry.shutdownPingSender.enabledFirstSession", false) ;
 lockPref("toolkit.telemetry.testing.overrideProductsCheck", false) ;
 lockPref("toolkit.telemetry.geckoview.streaming", false) ;
 lockPref("toolkit.telemetry.geckoview.batchDurationMS", 0) ;
-
+lockPref("services.sync.prefs.sync.app.shield.optoutstudies.enabled", true) ;
+lockPref("services.sync.prefs.sync.browser.crashReports.unsubmittedCheck.autoSubmit2", false) ;
 // Homepage
-lockPref("browser.startup.homepage", "searx.info") ;
+lockPref("browser.startup.homepage", "about:config") ;
 lockPref("startup.homepage_welcome_url", "about:config") ;
 
 // Extensions
