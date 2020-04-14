@@ -145,9 +145,9 @@
     }
   },
   "search": {
-    "default": "Qwant",
+    "default": "ddg",
     "engines": {
-      "Qwant": "https://qwant.com/?q={}"
+      "Qwant": "https://duckduckgo.com/lite/?q={}"
     }
   },
   "properties": {
